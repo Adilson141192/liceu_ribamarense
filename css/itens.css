@@ -1,0 +1,36 @@
+body h2, h3 {
+    text-align: center;
+    color: var(--primary);
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+body p {
+    text-align: justify;
+    font-size: 18px;
+    color: var(--primary);
+    margin: 0px 20px;
+    padding: 5px;
+}
+
+.itensImg {
+    display: block;
+    max-width: 70%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.quero, .itensTitulo{
+    border-radius: 20px;
+    border: 2px solid var(--secondary);
+    box-shadow: 1px 1px 15px 3px rgba(19,211,214, 0.6);
+    padding: 10px;
+    margin: 5px 80px;
+}
+
+#seta {
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary);
+    font-size: 20px;
+}

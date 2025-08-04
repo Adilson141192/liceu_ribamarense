@@ -1,0 +1,89 @@
+:root {
+    --primary: #000000;
+    --secondary: #012aa1;
+}
+
+header p {
+    font-size: 45px;
+    color: var(--primary);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
+
+#logo {
+    display: block;
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+body {
+    background-color: #f0f0f0;
+    background-image: url(/assets/BG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+body h2, h3 {
+    text-align: center;
+    color: var(--primary);
+    padding: 10px;
+    margin: 10px;
+}
+
+body a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+#logoImg {
+    width: 20px;
+}
+
+.destaque {
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    background: none;
+    color: var(--primary);
+    margin: 30px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 2px solid var(--secondary);
+    box-shadow: 1px 1px 15px 3px #0129a19f;
+}
+
+.itens {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background: none;
+    color: var(--primary);
+    margin: 20px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 2px solid var(--secondary);
+    box-shadow: 1px 1px 15px 3px #0129a19f;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+}
+
